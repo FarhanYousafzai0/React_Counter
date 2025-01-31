@@ -28,7 +28,7 @@ const Counter = () => {
   return (
     <>
     <div className="container p-5 border-0 shadow-lg mx-auto rounded-md w-full md:w-[75%] lg:w-[35%] my-10">
-    <div className={`text-center text-5xl uppercase ${count < 0 ? 'animate-bounce' : ''}`}>
+    <div className={`text-center text-5xl uppercase ${count < 0 ? 'animate-bounce text-red-600'  : 'text-green-500'}`}>
   Counter
 </div>
 
